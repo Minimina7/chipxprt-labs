@@ -5,7 +5,7 @@ task2: task2.c
 	gcc -o counts task2.c
 
 task3: task3.c
-	gcc -o  hex task3.c 
+	gcc -o  hex task3.c -lm
 
 task4: task4.c
 	gcc -o encryption task4.c
